@@ -1,6 +1,6 @@
-package pl.majkelmichel.pizzaapp.remote.rest.dto.response;
+package pl.majkelmichel.pizza.remote.rest.dto.response;
 
-import pl.majkelmichel.pizzaapp.domain.SizeType;
+import pl.majkelmichel.pizza.domain.model.SizeType;
 
 import java.math.BigDecimal;
 
@@ -40,14 +40,5 @@ public class SizeDto {
 
     public void setPrice(BigDecimal price) {
         this.price = price;
-    }
-
-    @Override
-    public String toString() {
-        return "SizeDto{" +
-                "id=" + id +
-                ", size=" + size +
-                ", price=" + price +
-                '}';
     }
 }
